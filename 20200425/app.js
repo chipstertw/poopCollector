@@ -53,17 +53,21 @@ poopMove();
 
 dq('#up').addEventListener('click', function() {
 	moveVertical(player, -50);
+	touch();
 });
 dq('#down').addEventListener('click', function() {
 	moveVertical(player, +50);
+	touch();
 });
 dq('#right').addEventListener('click', function() {
 	moveHorizontal(player, +50);
 	player.style.transform = 'scale(1,1)';
+	touch();
 });
 dq('#left').addEventListener('click', function() {
 	moveHorizontal(player, -50);
 	player.style.transform = 'scale(-1,1)';
+	touch();
 });
 
 window.addEventListener('keydown', function(e) {
