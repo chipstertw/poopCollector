@@ -46,8 +46,8 @@ const moveHorizontal = (ele, amount) => {
 const poopMove = () => {
 	let x = Math.floor(Math.random() * window.innerWidth);
 	let y = Math.floor(Math.random() * window.innerHeight);
-	poop.style.top = `${x}px`;
-	poop.style.left = `${y}px`;
+	poop.style.top = `${y}px`;
+	poop.style.left = `${x}px`;
 };
 poopMove();
 
