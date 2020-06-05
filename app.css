@@ -1,47 +1,31 @@
-* {
-	text-align: center;
+img {
+	width: 60px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
 }
 
-h1 {
-	text-align: center;
-	font-size: 2rem;
-}
-
-.box {
-	height: 100px;
-	width: 100px;
-}
-
-.box2:hover {
-	height: 100px;
-	width: 100px;
+#player {
+	width: 40px;
 }
 
 section {
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	text-align: center;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
+	height: 100%;
 }
 
-.red {
-	background-color: red;
-}
-.orange {
-	background-color: orange;
-}
-.yellow {
-	background-color: yellow;
-}
-.green {
-	background-color: green;
-}
-.blue {
-	background-color: blue;
-}
-.purple {
-	background-color: purple;
+#p1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
 }
 
-.bg {
-	background-color: black;
+div {
+	text-align: center;
 }
